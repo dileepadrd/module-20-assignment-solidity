@@ -57,7 +57,8 @@ contract JointSavings {
         }
 
         // Call the `transfer` function of the `recipient` and pass it the `amount` to transfer as an argument.
-        // YOUR CODE HERE!
+        recipient.transfer(amount);
+
 
         // Set  `lastWithdrawAmount` equal to `amount`
         // YOUR CODE HERE!
