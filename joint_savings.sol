@@ -52,7 +52,9 @@ contract JointSavings {
         /*
         Add and `if` statement to check if the `lastToWithdraw` is not equal to (`!=`) to `recipient` If `lastToWithdraw` is not equal, then set it to the current value of `recipient`.
         */
-        // YOUR CODE HERE!
+        if (lastToWithdraw != recipient) {
+            lastToWithdraw = recipient
+        }
 
         // Call the `transfer` function of the `recipient` and pass it the `amount` to transfer as an argument.
         // YOUR CODE HERE!
